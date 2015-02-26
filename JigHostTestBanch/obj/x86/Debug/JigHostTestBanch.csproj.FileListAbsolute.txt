@@ -1,0 +1,8 @@
+C:\project\2015\Rogat\LaunGaurd\stepper\JigHostTestBanch\bin\Debug\JigHostTestBanch.exe
+C:\project\2015\Rogat\LaunGaurd\stepper\JigHostTestBanch\bin\Debug\JigHostTestBanch.pdb
+C:\project\2015\Rogat\LaunGaurd\stepper\JigHostTestBanch\obj\x86\Debug\JigHostTestBanch.Form1.resources
+C:\project\2015\Rogat\LaunGaurd\stepper\JigHostTestBanch\obj\x86\Debug\JigHostTestBanch.Properties.Resources.resources
+C:\project\2015\Rogat\LaunGaurd\stepper\JigHostTestBanch\obj\x86\Debug\JigHostTestBanch.csproj.GenerateResource.Cache
+C:\project\2015\Rogat\LaunGaurd\stepper\JigHostTestBanch\obj\x86\Debug\JigHostTestBanch.exe
+C:\project\2015\Rogat\LaunGaurd\stepper\JigHostTestBanch\obj\x86\Debug\JigHostTestBanch.pdb
+C:\project\2015\Rogat\LaunGaurd\stepper\JigHostTestBanch\obj\x86\Debug\JigHostTestBanch.csprojResolveAssemblyReference.cache
