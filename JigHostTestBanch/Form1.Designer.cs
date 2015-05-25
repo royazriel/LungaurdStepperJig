@@ -34,7 +34,9 @@
             this.btnStart = new System.Windows.Forms.Button();
             this.btnStop = new System.Windows.Forms.Button();
             this.btnHome = new System.Windows.Forms.Button();
+            this.pic = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.dgv)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pic)).BeginInit();
             this.SuspendLayout();
             // 
             // cmbPorts
@@ -48,7 +50,7 @@
             // 
             // btnOpenCom
             // 
-            this.btnOpenCom.Location = new System.Drawing.Point(182, 9);
+            this.btnOpenCom.Location = new System.Drawing.Point(141, 12);
             this.btnOpenCom.Name = "btnOpenCom";
             this.btnOpenCom.Size = new System.Drawing.Size(85, 30);
             this.btnOpenCom.TabIndex = 1;
@@ -94,11 +96,21 @@
             this.btnHome.UseVisualStyleBackColor = true;
             this.btnHome.Click += new System.EventHandler(this.btnHome_Click);
             // 
+            // pictureBox1
+            // 
+            this.pic.Location = new System.Drawing.Point(235, 12);
+            this.pic.Name = "pictureBox1";
+            this.pic.Size = new System.Drawing.Size(34, 35);
+            this.pic.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pic.TabIndex = 6;
+            this.pic.TabStop = false;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(281, 327);
+            this.Controls.Add(this.pic);
             this.Controls.Add(this.btnHome);
             this.Controls.Add(this.btnStop);
             this.Controls.Add(this.btnStart);
@@ -106,8 +118,10 @@
             this.Controls.Add(this.btnOpenCom);
             this.Controls.Add(this.cmbPorts);
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "JigHostTestBanch";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Form1_FormClosing);
             ((System.ComponentModel.ISupportInitialize)(this.dgv)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pic)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -120,6 +134,7 @@
         private System.Windows.Forms.Button btnStart;
         private System.Windows.Forms.Button btnStop;
         private System.Windows.Forms.Button btnHome;
+        private System.Windows.Forms.PictureBox pic;
     }
 }
 
